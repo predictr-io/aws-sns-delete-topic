@@ -1,0 +1,21 @@
+name: 'AWS SNS Delete Topic'
+description: 'Delete AWS SNS topics - DESTRUCTIVE ACTION'
+author: 'predictr-io'
+
+branding:
+  icon: 'trash-2'
+  color: 'red'
+
+inputs:
+  # Required parameters
+  topic-arn:
+    description: 'SNS topic ARN to delete'
+    required: true
+
+outputs:
+  deleted:
+    description: 'Whether the topic was successfully deleted ("true" or "false")'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
