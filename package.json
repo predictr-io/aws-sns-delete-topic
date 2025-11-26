@@ -1,6 +1,6 @@
 {
     "name": "aws-sns-delete-topic",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "GitHub Action to delete AWS SNS topics",
     "main": "dist/index.js",
     "scripts": {
