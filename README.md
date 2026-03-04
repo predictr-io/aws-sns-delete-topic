@@ -198,25 +198,10 @@ The action handles common scenarios:
 - Review AWS permissions for delete operations
 - Consider exporting subscription configurations first
 
-## Development
-
-### Setup
-
-```bash
-git clone https://github.com/predictr-io/aws-sns-delete-topic.git
-cd aws-sns-delete-topic
-npm install
-```
-
-### Scripts
-
-```bash
-npm run build      # Build the action
-npm run type-check # TypeScript checking
-npm run lint       # ESLint
-npm run check      # Run all checks
-```
-
 ## License
 
 MIT
+
+## Contributing
+
+Contributions welcome! Please submit a Pull Request.
